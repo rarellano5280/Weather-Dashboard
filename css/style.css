@@ -1,0 +1,60 @@
+:root {
+    --primary: #0275d8;
+    --cardsBg: #005792;
+  }
+
+  html {
+    font-size: 62.5%;
+  }
+
+  .navbar{
+    height: 10rem!important;
+  }
+
+  h1{
+    font-size: 5rem;
+    font-weight: 250;
+    letter-spacing: 0.1rem;
+    color: white
+  }
+
+  #cityContent,
+  li{
+    color: black;
+  }
+
+#historyResults,
+#cityContent
+.card{
+    background-color: var(--primary)!important;
+}
+
+#citySearch{
+    height: 100vh;
+}
+
+#citySearch,
+h4{
+    font-size: 2rem;
+}
+
+#cityInput:placeholder-shown,
+.form-control{
+    font-size: 1.5rem;
+}
+
+#fiveDay .card{
+    border: 1px solid black!important;
+}
+
+#historyResults li {
+    background-color: var(--primary);
+    color: white;
+}
+
+#displayWeather{
+    display: none;
+}
+
+
+
