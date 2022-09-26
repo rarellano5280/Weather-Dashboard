@@ -1,5 +1,5 @@
 :root {
-    --primary: #0275d8;
+    --primary:#0275d8; 
     --cardsBg: #005792;
   }
 
@@ -35,6 +35,7 @@
 
 #citySearch,
 h4{
+  font-weight: 250;
     font-size: 2rem;
 }
 
