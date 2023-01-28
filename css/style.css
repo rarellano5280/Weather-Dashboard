@@ -18,9 +18,23 @@
     color: white
   }
 
-  #cityContent,
-  li{
-    color: black;
+  #weatherContent {
+    display: none;
+  }
+
+  #cityDetail,
+  #uvIndexColor, li {
+    color: #4D4F53!important;;
+  }
+
+  #searchResults,
+  #cityDetail
+  .card {
+    background-color: var(--cardsBg);
+  }
+
+  #searchResults {
+    height: 100vh
   }
 
 #historyResults,
@@ -32,30 +46,5 @@
 #citySearch{
     height: 100vh;
 }
-
-#citySearch,
-h4{
-  font-weight: 250;
-    font-size: 2rem;
-}
-
-#cityInput:placeholder-shown,
-.form-control{
-    font-size: 1.5rem;
-}
-
-#fiveDay .card{
-    border: 1px solid black!important;
-}
-
-#historyResults li {
-    background-color: var(--primary);
-    color: white;
-}
-
-#displayWeather{
-    display: none;
-}
-
 
 
