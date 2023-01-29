@@ -23,10 +23,27 @@ const currentWeather = (city) => {
                 ${cityWeatherResult.name} ${today} <img src="${iconURL}" alt"${cityWeatherResult.weather[0].description}" />
             </h2>
             <p>Temp: ${cityWeatherResult.main.temp} </p>
-            <p>Humidity: ${cityWeatherResult.main.temp} </p>
-            <p>Wind Speed: ${cityWeatherResult.main.temp} </p>
+            <p>Humidity: ${cityWeatherResult.main.humidity} </p>
+            <p>Wind Speed: ${cityWeatherResult.wind.speed} </p>
             `)
         $("#cityDetail").append(currentCity);
   
-    })
+    });
 }
+
+$("#searchBtn").on("click", function(event) {
+    event.preventDefault();
+
+    const city = $("#enterCity").val().trim();
+    currentWeather(city);
+    if(!historyList.includes(city)) {
+        historyList.push(city);
+        const citySearch = $(`
+        <li class="list-group-item">${city}</li>
+            `)
+        $("#searchHistory").append(citySearch);
+    };
+
+    localStorage.setItem("city,", JSON.stringify(historyList));
+    console.log(historyList);
+})
