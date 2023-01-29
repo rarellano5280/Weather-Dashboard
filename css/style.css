@@ -1,6 +1,7 @@
 :root {
     --primary:#0275d8; 
     --cardsBg: #005792;
+    --font-family: 'Manrope', sans-serif;
   }
 
   html {
@@ -11,6 +12,11 @@
     height: 10rem!important;
   }
 
+  p{
+    font-family: var(--font-family);
+    font-size: medium;
+  }
+
   h1{
     font-size: 5rem;
     font-weight: 250;
@@ -18,13 +24,31 @@
     color: white
   }
 
+.fiveDayHeader {
+  font-family: var(--font-family);
+  font-size: 30px;
+}
+
+.mainHeader {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+}
+
+#currentCity {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 30px;
+}
+
+#currentWeatherInfo {
+  font-family: var(--font-family);
+}
+
   #weatherContent {
     display: none;
-  }
-
-  #cityDetail,
-  #uvIndexColor, li {
-    color: #4D4F53!important;;
   }
 
   #searchResults,
@@ -40,7 +64,7 @@
 #historyResults,
 #cityContent
 .card{
-    background-color: var(--primary)!important;
+    background-color: var(--primary);
 }
 
 #citySearch{
