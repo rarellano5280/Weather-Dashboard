@@ -24,6 +24,11 @@
     color: white
   }
 
+  h4{
+    font-family: var(--font-family);
+    font-size: 2.5rem;
+  }
+
 .fiveDayHeader {
   font-family: var(--font-family);
   font-size: 30px;
@@ -37,6 +42,11 @@
   letter-spacing: -0.04em;
 }
 
+#cityInput:placeholder-shown,
+ .form-control{
+     font-size: 2rem;
+ }
+
 #currentCity {
   font-family: var(--font-family);
   font-weight: 400;
@@ -45,6 +55,11 @@
 
 #currentWeatherInfo {
   font-family: var(--font-family);
+}
+
+#fiveDay .card {
+  border: 2px solid var(--cardsBg) !important;
+  box-shadow: 5px 5px 5px var(--cardsBg);
 }
 
   #weatherContent {

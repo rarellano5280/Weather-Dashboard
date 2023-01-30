@@ -92,4 +92,14 @@ $("#searchBtn").on("click", function(event) {
 
     localStorage.setItem("city,", JSON.stringify(historyList));
     console.log(historyList);
-})
+});
+
+$(document).ready(function() {
+    const searchResults = JSON.parse(localStorage.getItem("city"));
+
+    if(searchResults !== null) {
+        const previousSearchIndex = searchResults.length - 1;
+        const previousSearchCity = searchResults[previousSearchIndex];
+        currentWeather(previousSearchCity);
+    }
+});
