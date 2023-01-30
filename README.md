@@ -1,31 +1,32 @@
-# Weather Dashboard 
+ <h2 align='center'>
+  <a href= "https://rarellano5280.github.io/Weather-Dashboard/" target="_blank">Weather Dashboard</a>
+  </h2>
 
-## Description
-This weather dashboard is intended to allo the user to search for a city in the search bar. Once the user submits the search it will populate the webpage with the current weather and a 5 day forecast. 
-
-## User Story
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/) 
+ 
 
 
-# Acceptance Criteria
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
-WHEN I view the UV index
-THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
+
+## Table Of Contents
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Deployed Link](#deployed-link)
+5. [License](#license)
+    
+## 📝 Description
+---
+This is a weather app that utilizes the Open Weather api. The user can search for a city to display the most current weather. The app will also display a five day forecast for the searched city.
+
+## 🛠 Usage
+---
+The user will see a search bar on the left hand side. The user can type in a city to see the current weather and a five day forecast. If the user exits the page and reloads it they will notice that their most recent search will persist.
 
 
-## Git Pages Link 
+## Deployed Link
+---
+https://rarellano5280.github.io/Weather-Dashboard/
 
 ## License
-MIT License
-
-Copyright (c) 2022 Robert
+---
+  The project is protected under the MIT license. Please follow the following link if you'd like more details about this license https://choosealicense.com/licenses/mit/

@@ -66,21 +66,9 @@
     display: none;
   }
 
-  #searchResults,
-  #cityDetail
-  .card {
-    background-color: var(--cardsBg);
-  }
-
   #searchResults {
     height: 100vh
   }
-
-#historyResults,
-#cityContent
-.card{
-    background-color: var(--primary);
-}
 
 #citySearch{
     height: 100vh;
